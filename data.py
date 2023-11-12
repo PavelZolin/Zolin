@@ -1,13 +1,6 @@
 headers = {'Content-Type': 'application/json'}
 
 
-
-courier_body={
-    "login": "B=I",
-    "password": "1234",
-    "firstName": "saske"
-}
-
 orders_track ={
     "t": 1,
 }
