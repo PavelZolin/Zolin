@@ -9,7 +9,7 @@ def edit_track_Id(t):
     return current_body
 
 def post_create_orders(body):
-    return requests.post(configuration.URL + configuration.Create_Orders,
+    return requests.post(configuration.URL + configuration.CREATE_ORDERS,
                          json=body,
                          headers=data.headers)
 
@@ -23,7 +23,11 @@ def get_track():
 
 
 def get_track_orders(tr):
-    return requests.get(configuration.URL + configuration.Track_Orders, params=tr, headers=data.headers)
+    return requests.get(configuration.URL + configuration.TRACK_ORDERS, params=tr, headers=data.headers)
+
+
+
+
 
 
 
